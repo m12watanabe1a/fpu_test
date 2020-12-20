@@ -186,4 +186,7 @@ clean:
 #######################################
 -include $(wildcard $(BUILD_DIR)/*.d)
 
+burn:
+	-openocd -f openocd.cfg -c "flash_elf $(BUILD_DIR)/$(TARGET).elf"
+
 # *** EOF ***
