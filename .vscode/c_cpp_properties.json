@@ -1,0 +1,22 @@
+
+{
+  "version": 4,
+  "configurations": [
+    {
+      "name": "Mac",
+      "includePath": [
+        "${workspaceFolder}/Core/Inc/**",
+        "${workspaceFolder}/Drivers/**"
+      ],
+      "defines": [
+        "STM32F446RE",
+        "USE_HAL_DRIVER"
+      ],
+      "compilerPath": "/usr/local/bin/arm-none-eabi-g++",
+      "cStandard": "c11",
+      "cppStandard": "c++11",
+      "intelliSenseMode": "gcc-arm",
+      "configurationProvider": "ms-vscode.cmake-tools"
+    }
+  ]
+}
