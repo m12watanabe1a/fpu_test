@@ -7,9 +7,13 @@ STM32F446 FPU acceleration test
 - arm-none-eabi-gcc
 
 
-# Build
+## Build
 
 ```shell
  $ make
+```
+
+## Flash
+```shell
  $ make burn
 ```
